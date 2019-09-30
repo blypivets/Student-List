@@ -1,0 +1,88 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs-container,
+.card {
+  max-width: 350px;
+  margin-top: 9vh;
+  border: solid #ccc 1px;
+  border-radius: 5px;
+  box-shadow: 0 8px 6px 2px #aaaaaa;
+}
+
+.tabs-container {
+  padding: 20px 20px 0 20px;
+}
+
+.tabs-container:hover {
+  box-shadow: 0 10px 8px 3px #aaaaaa;
+}
+
+.tabs-container .nav-tabs {
+  border: none;
+}
+
+.tabs-container .nav-tabs  li a {
+  color: #757575;
+  font-weight: bold;
+  border:none;
+}
+
+.tabs-container .nav-tabs  .nav-item.show .nav-link,
+.tabs-container .nav-tabs  .nav-item .nav-link.active {
+  border: none;
+  border-bottom: solid #ccc 4px;
+}
+
+.nav-justified > li > a {
+  margin-bottom: 0;
+}
+
+.tabs-container .tab-content {
+  padding: 20px;
+}
+
+.tabs-container .input-group:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.tabs-container .h3{
+  color: #696969;
+  margin: 0.9em 0 1em;
+}
+
+.tabs-container .btn-primary{
+  margin-top: 0.7em;
+  margin-bottom: 0.2em;
+  box-shadow: 2px 1px 10px 2px #aaaaaa;
+}
+
+.tabs-container .btn-primary:hover {
+  box-shadow: 2px 1px 8px 2px #aaaaaa;
+}
+
+.tabs-container .btn-primary:active {
+  box-shadow: 2px 1px 6px 2px #aaaaaa;
+}
+
+#inputPassword, #inputRegPassword, #inputConfirmPassword {
+  width: 85%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#view_button1, #view_button2, #view_button3 {
+  width: 15%;
+  background: #D0D0D0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#forgot-text{
+  margin: 7px 0 0;
+  padding: 0;
+  font-size: 0.95em;
+}
